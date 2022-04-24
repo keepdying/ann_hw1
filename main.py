@@ -51,6 +51,6 @@ def main():
     data_y = np.array([-1, 1, -1])
 
     unit.train(X= data_x, y= data_y, weight= weights)
-
+    print(unit.w)
 if __name__ == "__main__":
     main()
